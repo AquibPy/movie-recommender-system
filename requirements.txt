@@ -1,0 +1,8 @@
+steamlit
+pandas
+numpy
+nltk
+scikit-learn
+gensim
+transformers
+torch
