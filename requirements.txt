@@ -1,8 +1,9 @@
 steamlit
 pandas
 numpy
-nltk
-scikit-learn
-gensim
-transformers
-torch
+## uncomment this while training
+# nltk
+# scikit-learn
+# gensim
+# transformers
+# torch

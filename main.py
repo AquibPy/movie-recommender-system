@@ -4,8 +4,8 @@ import pandas as pd
 from PIL import Image
 
 # Load data
-movies_dict = pickle.load(open("model\\movies.pkl", 'rb'))
-similarity_tfidf = pickle.load(open("model\\similarity_bert.pkl", 'rb'))
+movies_dict = pickle.load(open("model/movies.pkl", 'rb'))
+similarity_tfidf = pickle.load(open("model/similarity_bert.pkl", 'rb'))
 
 # Function to recommend movies
 def recommend(movie):
@@ -26,7 +26,7 @@ st.set_page_config(page_title="Movie Recommender", page_icon=":movie_camera:", l
 # Title and description
 col1, col2 = st.columns([1, 3])
 with col1:
-    image = Image.open("data\\movie_icon.jpg")
+    image = Image.open("data/movie_icon.jpg")
     st.image(image, use_column_width=True)
 
 with col2:
