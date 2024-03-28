@@ -1,4 +1,4 @@
-steamlit
+streamlit
 pandas
 numpy
 ## uncomment this while training
