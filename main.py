@@ -57,6 +57,6 @@ footer {
 }
 </style>
 <footer>
-    <p>&copy; 2024 Movie Recommender System</p>
+    <p>&copy; Made with ❤️ by Mohd Aquib </p>
 </footer>
 """, unsafe_allow_html=True)
